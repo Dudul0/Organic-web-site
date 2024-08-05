@@ -20,4 +20,13 @@
     .intro-wrapper > img {
         max-width: 410px;
     }
+    .text {
+        font-size: 32px;
+    }
+    .heading {
+        font-size: 32px;
+    }
+    h1 {
+        font-size: 48px;
+    }
 }

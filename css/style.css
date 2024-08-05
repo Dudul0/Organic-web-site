@@ -2,8 +2,10 @@ a {
     text-decoration: none;
 }
 .container{
-    background-color: #faf9f8;
-    width: 2044px;
+    max-width: 1512px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
 }
 body {
     margin: 0;
@@ -16,18 +18,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header {
     background-color: #faf9f8;
-    width: 100%;
 }
-.header-inner {
+.header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     padding-top: 84px;
-    padding-right: 189px;
-    padding-left: 204px;
     width: 100%;
 }
+
 .header-left-item {
     font-size: 36px;
     font-weight: 400;
@@ -50,7 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .intro {
     background-color: #faf9f8;
-    padding: 126px;
+    position: relative;
+    top: 126px;
+    
 }
 .intro-heading {
     font-size: 90px;
@@ -71,8 +72,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .categories-inner{
     display: grid;
-    grid-template-columns: 1.036fr 1.3fr 1.3fr 0.7fr;
+    grid-template-columns: 0.7fr 1.3fr 1.3fr 0.7fr;
     grid-template-rows: 2fr;
+    position: relative;
+    top: 330px;
 }
 .category-item:last-child{
     grid-column: 1 / 5;
@@ -84,18 +87,20 @@ h1, h2, h3, h4, h5, h6 {
 .categories-heading {
     font-size: 48px;
     padding-bottom: 42px;
-    font-weight: 400;
-    margin-top: 80px;
+    font-weight: 400; 
+    position: relative;
+    top: 328px;
 }
 .new-colection{
     background-image: linear-gradient(180deg, #F1F1F1 50% 50%, #DBDBDB 50%);
-    padding-top: 80px;
+    padding: 80px;
     padding-bottom: 133px;
 }
 .new-colection-wrapper {
     text-align: center;
 }
 .new-colection-inner {
+ 
     display: flex;
     justify-content: space-around;
 }
